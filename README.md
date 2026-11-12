@@ -3,6 +3,12 @@
 **One Linux box that runs my sites, bots, game servers and family photos.** Everything lives in Docker, the web apps
 reach the internet through a Cloudflare Tunnel, and the admin tools stay private on Tailscale.
 
+<img src="docs/desk.jpg" width="820" alt="The server: a small black Lenovo ThinkCentre standing on a white desk next to a white 5G router, with network cables running into a switch mounted on its side.">
+
+<img src="docs/front.jpg" width="404" alt="The ThinkCentre from the front."> <img src="docs/side.jpg" width="404" alt="The ThinkCentre and the 5G router from the side.">
+
+Lenovo ThinkCentre · Intel i7-9700 · 16 GB RAM · 1 TB SSD · Ubuntu · on a 5G home connection
+
 <img src="docs/homelab.png" width="820" alt="Diagram: Cloudflare Tunnel for public web apps and Tailscale for private access, in front of a Docker host running apps I built (n3trunner.dev, Plate, ScamGuard, an AI assistant bot, Police Chase AI), game servers (Assetto Corsa, Minecraft), Immich with PostgreSQL and Redis, Jellyfin, and network tools (AdGuard Home, Nginx Proxy Manager, Uptime Kuma, n8n, Homepage)">
 
 ## Deploying without fear
